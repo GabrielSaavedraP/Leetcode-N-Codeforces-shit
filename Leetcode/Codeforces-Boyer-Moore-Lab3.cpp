@@ -126,9 +126,21 @@ struct my_map {
     }
 };
 
-class Solution {
-public:
-    int uniqueMorseRepresentations(vector<string>& words) {
-
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int n;
+    cin >> n;
+    my_map<int, int> freq(2*n);
+    int mayoritario = 0;
+    for (int i = 0; i < n; ++i) {
+        int x;
+        cin >> x;
+        freq[x]++;
+        if (freq[x] > n/2) {
+            mayoritario = x;
+        }
     }
-};};
+    if (mayoritario == 0) cout << "NO EXISTE\n";
+    else cout << mayoritario << '\n';
+}
