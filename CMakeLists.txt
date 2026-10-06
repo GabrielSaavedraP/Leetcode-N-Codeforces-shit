@@ -8,5 +8,5 @@ add_executable(
         Leetcode/Leetcode13.cpp
         Leetcode/Leetcode169.cpp
         Leetcode/Leetcode914.cpp
-        Leetcode/Codeforces-Boyer-Moore-Lab3.cpp
+        Codeforces/Codeforces-Boyer-Moore-Lab3.cpp
 )
