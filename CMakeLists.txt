@@ -10,3 +10,4 @@ add_executable(
         Leetcode/Leetcode914.cpp
         Codeforces/Codeforces-Boyer-Moore-Lab3.cpp
 )
+#fuck my hb merx
